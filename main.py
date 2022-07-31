@@ -50,7 +50,7 @@ def func(message):
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         btn2 = types.KeyboardButton("🔙 Назад 🔙")
         markup.add(btn2)
-        bot.send_message(message.chat.id, text="Отправь мне название трека", reply_markup=markup)
+        bot.send_message(message.chat.id, text="🆕 Отправь мне название трека 🆕", reply_markup=markup)
 
     else:
         bot.send_message(message.chat.id, text="Тут я даже не знаю, что тебе сказать...")
